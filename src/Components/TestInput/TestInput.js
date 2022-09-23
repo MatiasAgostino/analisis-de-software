@@ -55,11 +55,7 @@ function TestInput() {
           Restart
         </button>
       </div>
-      {displayMetrics ? (
-        <Metrics infoDisplay={true} cc={cc} />
-      ) : (
-        <Metrics infoDisplay={false} />
-      )}
+      {displayMetrics ? <Metrics infoDisplay={true} cc={cc} /> : null}
     </div>
   );
 }

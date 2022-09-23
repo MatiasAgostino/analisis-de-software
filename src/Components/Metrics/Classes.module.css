@@ -16,7 +16,7 @@
   opacity: 1;
 }
 
-.containerOut {
+/* .containerOut {
   margin-top: 50px;
   margin-bottom: 20px;
   background-color: white;
@@ -28,7 +28,7 @@
   border-radius: 10px;
   animation: containerFadeOut 2s;
   opacity: 0;
-}
+} */
 
 .metric {
   color: black;
@@ -51,11 +51,11 @@
   }
 }
 
-@keyframes containerFadeOut {
+/* @keyframes containerFadeOut {
   from {
-    opacity: 1;
+    opacity: 0.5;
   }
   to {
     opacity: 0;
   }
-}
+} */
