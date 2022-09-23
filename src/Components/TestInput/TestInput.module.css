@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.title {
+  color: white;
+}
+
+.textArea {
+  width: 40vw;
+  height: 50vh;
+  border-radius: 10px;
+  margin-top: 5px;
+  border-width: 3px;
+  border-color: rgb(60, 254, 180);
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+.button {
+  padding: 5px 20px;
+  margin: 20px 3px 0px 3px;
+  height: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #68f8a0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}

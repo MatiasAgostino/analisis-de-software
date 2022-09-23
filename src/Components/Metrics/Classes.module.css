@@ -1,0 +1,61 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.containerIn {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+  height: 10vh;
+  border-radius: 10px;
+  animation: containerFadeIn 2s;
+  opacity: 1;
+}
+
+.containerOut {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+  height: 10vh;
+  border-radius: 10px;
+  animation: containerFadeOut 2s;
+  opacity: 0;
+}
+
+.metric {
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.parameter {
+  color: black;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+@keyframes containerFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes containerFadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
